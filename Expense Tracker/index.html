@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="container">
+    
+     <div id="box">
+
+         <section id="upper_section">
+           <h1>
+            Expense Tracker
+           </h1>
+           <div id="balance">
+             <h2 id="balance-amount">₹0</h2>
+             <h3>Your Balance</h3>
+           </div>
+         </section>
+
+         <div id="transaction_container">
+            
+          <h3>Transactions</h3>
+          <hr>
+          <div id="transactions">
+
+            <!-- <div class="transaction"> -->
+             
+              <!-- <div class="edit-transactions">
+                 
+               <div class="left">
+                 <p>Example Text</p>
+                 <p>+ ₹ 200</p>
+               </div>
+
+                <div class="status">
+                  C
+                </div>
+
+              </div> -->
+
+              <!-- <div id="icons" class="hidden">
+                <img src="\Expense Tracker\icons\edit.png"  alt="Edit"> 
+                <img src="\Expense Tracker\icons\delete.png"  alt="Edit"> 
+              </div> -->
+              
+
+            <!-- </div> -->
+            
+
+            <!-- <div class="transaction">
+             <div class="left">
+               <p>Example Text</p>
+               <p>- ₹ 200</p>
+             </div>
+             <div class="status">
+                D
+             </div>
+           </div> -->
+
+          </div>
+          
+
+         </div>
+         
+         <section id="transaction_form">
+            <h3>
+              Add Transactions
+            </h3>
+            <form>
+              <div class="inputs">
+
+                 <div class="form_control">
+                   <label for="text">Text</label>
+                   <input type="Enter Description" type="text" name="text" id="text">
+                 </div>
+
+                  <div class="form_control">
+                   <label for="amount">Amount</label>
+                   <input type="Enter Amount" type="text" name="amount" id="amount">
+                 </div>
+
+              </div>
+
+              <div id="buttons_container">
+
+                 <button id="earnBtn">
+                    <p id="earnings">₹0</p>
+                    <p>Earnings</p>
+                 </button>
+
+                 <button id="expBtn">
+                    <p id="expenses">₹0</p>
+                    <p>Expenses</p>
+                 </button>
+
+              </div>
+
+            </form>
+         </section>
+
+     </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
